@@ -5,9 +5,9 @@ module.exports = function(nav) {
     const router = express.Router();
 
     let data = [
-        { id: 1, name: 'Miya', age: 22, designation: 'Developer', location: 'Trivandrum', salary: 30000,image: "default.jpg"},
-        { id: 2, name: 'Liya', age: 23, designation: 'Tester', location: 'Kochi', salary: 28000 },
-        { id: 3, name: 'Meera', age: 24, designation: 'Manager', location: 'Alappuzha', salary: 40000 }
+        { id: 1, name: 'Miya', designation: 'Developer', location: 'Trivandrum', salary: 30000,image: "default.jpg"},
+        { id: 2, name: 'Liya', designation: 'Tester', location: 'Kochi', salary: 28000 },
+        { id: 3, name: 'Meera', designation: 'Manager', location: 'Alappuzha', salary: 40000 }
     ];
 
     router.get('/', (req, res) => {
