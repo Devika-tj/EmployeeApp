@@ -7,7 +7,7 @@ module.exports = function(nav) {
     let data = [
         { id: 1, name: 'Miya',age:23, designation: 'Developer', location: 'Trivandrum', salary: 30000,image: "default.jpg"},
         { id: 2, name: 'Liya', age:24, designation: 'Tester', location: 'Kochi', salary: 28000 },
-        { id: 3, name: 'Meera', age:25 designation: 'Manager', location: 'Alappuzha', salary: 40000 }
+        { id: 3, name: 'Meera', age:25, designation: 'Manager', location: 'Alappuzha', salary: 40000 }
     ];
 
     router.get('/', (req, res) => {
